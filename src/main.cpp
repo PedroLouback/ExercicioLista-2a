@@ -8,7 +8,7 @@ int main()
 	FPVazia(&operandos);
 	FPVazia(&operadores);
 
-	cout << "Informe a equação que deseja ser feita utilizando espaços entre operandos e operadores: ";
+	cout << "Informe a equação em que deseja separar seus operando e operadores: ";
 	getline(cin, equacao);
 
 	RecebeEquacao(equacao, &operandos, &operadores);
